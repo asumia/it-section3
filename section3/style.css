@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Alata', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #FAFAFA;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 102px;
+}
+
+.content__header {
+    font-size: 37px;
+    line-height: 54px;
+}
+
+.content__text {
+    font-size: 22px;
+    text-align: center;
+    line-height: 38px;
+    color: #7D7D7D;
+    margin-top: 25px;
+    width: 960px;
+    height: 80px;
+}
+
+.cards {
+    margin-top: 119px;
+    width: 1124px;
+    height: 411px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 344px;
+    height: 405px;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 10px;
+    transition-duration: .35s;
+}
+
+.card:hover { 
+    margin-top: 4px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.103884);
+}
+
+.card>img {
+    height: 224px;
+}
+
+.card__date {
+    display: flex;
+    align-items: center;
+    margin-left: 26.5px;
+    height: 23px;
+    width: 130px;
+    margin-top: 31.38px;
+}
+
+.date {
+    font-size: 16px !important;
+    line-height: 22px !important; 
+    color: #565656 !important;
+    width: 91px !important;
+    height: 22px !important;
+    margin-left: 15.06px !important;
+}
+
+.card__calendar {
+    width: 14.44px;
+    height: 14.44px;
+}
+
+.card>p {
+    font-size: 22px;
+    line-height: 30px;
+    width: 291px;
+    height: 56px;
+    margin-left: 26px;
+    margin-top: 14px;
+    color: #252525;
+}
+
+.button {
+    width: 226px;
+    height: 64px;
+    background: #717CFF;
+    border-radius: 11px;
+    margin-top: 112px;
+    align-self: center;
+    text-decoration: none;
+}
+
+.button__content {
+    display: flex;
+}
+
+.button__content p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 34px;
+}
+
+.button__content img {
+    width: 28.15px;
+    height: 26px;
+    margin-top: 19px;
+    margin-left: 40px;
+}
